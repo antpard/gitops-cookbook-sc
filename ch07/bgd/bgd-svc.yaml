@@ -8,9 +8,9 @@ metadata:
   namespace: bgd
 spec:
   ports:
-  - port: 8080
+  - port: 32761 
     protocol: TCP
-    targetPort: 32761 
+    targetPort: 8080 
   selector:
     app: bgd
 ---
